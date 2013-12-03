@@ -22,6 +22,9 @@
 		84AC6793184E834F0025B393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AC6772184E834F0025B393 /* UIKit.framework */; };
 		84AC679B184E834F0025B393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AC6799184E834F0025B393 /* InfoPlist.strings */; };
 		84AC679D184E834F0025B393 /* R_DelegationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC679C184E834F0025B393 /* R_DelegationTests.m */; };
+		84AC67A8184E83A30025B393 /* R_Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC67A7184E83A30025B393 /* R_Delegate.m */; };
+		84AC67AB184E83C30025B393 /* R_Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC67AA184E83C30025B393 /* R_Notification.m */; };
+		84AC67AE184E89EB0025B393 /* R_BlockNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AC67AD184E89EB0025B393 /* R_BlockNotifications.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		84AC6798184E834F0025B393 /* R_DelegationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "R_DelegationTests-Info.plist"; sourceTree = "<group>"; };
 		84AC679A184E834F0025B393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84AC679C184E834F0025B393 /* R_DelegationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = R_DelegationTests.m; sourceTree = "<group>"; };
+		84AC67A6184E83A30025B393 /* R_Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R_Delegate.h; sourceTree = "<group>"; };
+		84AC67A7184E83A30025B393 /* R_Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R_Delegate.m; sourceTree = "<group>"; };
+		84AC67A9184E83C30025B393 /* R_Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R_Notification.h; sourceTree = "<group>"; };
+		84AC67AA184E83C30025B393 /* R_Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R_Notification.m; sourceTree = "<group>"; };
+		84AC67AC184E89EB0025B393 /* R_BlockNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R_BlockNotifications.h; sourceTree = "<group>"; };
+		84AC67AD184E89EB0025B393 /* R_BlockNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R_BlockNotifications.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +129,12 @@
 				84AC6783184E834F0025B393 /* Main_iPad.storyboard */,
 				84AC6786184E834F0025B393 /* ViewController.h */,
 				84AC6787184E834F0025B393 /* ViewController.m */,
+				84AC67A6184E83A30025B393 /* R_Delegate.h */,
+				84AC67A7184E83A30025B393 /* R_Delegate.m */,
+				84AC67AC184E89EB0025B393 /* R_BlockNotifications.h */,
+				84AC67AD184E89EB0025B393 /* R_BlockNotifications.m */,
+				84AC67A9184E83C30025B393 /* R_Notification.h */,
+				84AC67AA184E83C30025B393 /* R_Notification.m */,
 				84AC6789184E834F0025B393 /* Images.xcassets */,
 				84AC6775184E834F0025B393 /* Supporting Files */,
 			);
@@ -256,6 +271,9 @@
 				84AC6788184E834F0025B393 /* ViewController.m in Sources */,
 				84AC677F184E834F0025B393 /* AppDelegate.m in Sources */,
 				84AC677B184E834F0025B393 /* main.m in Sources */,
+				84AC67AE184E89EB0025B393 /* R_BlockNotifications.m in Sources */,
+				84AC67AB184E83C30025B393 /* R_Notification.m in Sources */,
+				84AC67A8184E83A30025B393 /* R_Delegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
